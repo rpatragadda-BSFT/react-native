@@ -88,7 +88,8 @@ fb_native = struct(
     python_binary = native.python_binary,
     python_library = native.python_library,
     python_test = native.python_test,
-    remote_file = native.remote_file,
+    #Remved for testing purpose.
+    #remote_file = native.remote_file,
     robolectric_test = native.robolectric_test,
     rust_binary = native.rust_binary,
     rust_library = native.rust_library,
